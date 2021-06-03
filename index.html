@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Météo</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SCRIPT -->
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <div class="box">
+        <h1>Météo</h1>
+        <input type="text" id="inputValue" placeholder="Entrez votre ville">
+        <button id="submit">Rechercher</button>
+    </div>
+    <div id="display">
+        <h2 id="nam"></h2>
+        <div id="icon"></div>
+        <h3 id="desc"></h3>
+        <h3 id="temp"></h3>
+        <p id="tempmin"></p>
+        <p id="tempmax"></p>
+    </div>
+</body>
+</html>
