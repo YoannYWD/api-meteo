@@ -1,1 +1,2 @@
-"Initiation JS API M‚t‚o" 
+"Initiation JS API Meteo"
+https://yoannywd.github.io/api-meteo/
